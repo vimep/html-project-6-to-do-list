@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-do List!</title>
+</head>
+<body>
+    <p id="p1">Legenda: Fatto = &#128314;, Non fatto = &#128315;. </p>
+    <p>To-do list 3h (design) </p>
+    <div class="container">
+    <input id="testo" readonly>
+    <button onclick="attiva('&#128314;');">Fatto</button>
+    <button onclick="attiva('&#128315;');">Non fatto</button>
+    <button onclick="annotazione('');">Note</button> <input id="acceso" maxlength="45" disabled="True" placeholder="Max 45 caratteri">
+
+    <input id="testo2" readonly>
+    <button onclick="attiva2('&#128314;');">Fatto</button>
+    <button onclick="attiva2('&#128315;');">Non fatto</button>
+    <button onclick="annotazione2('');">Note</button> <input id="acceso2" maxlength="45" disabled="True" placeholder="Max 45 caratteri">
+
+    <input id="testo3" readonly>
+    <button onclick="attiva3('&#128314;');">Fatto</button>
+    <button onclick="attiva3('&#128315;');">Non fatto</button>
+    <button onclick="annotazione3('');">Note</button> <input id="acceso3" maxlength="45" disabled="True" placeholder="Max 45 caratteri">
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
